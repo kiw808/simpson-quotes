@@ -19,6 +19,7 @@ function App() {
             .then((data) => {
                 setQuote(data[0])
             })
+            .catch((err) => console.log(err))
     }
 
     return (
